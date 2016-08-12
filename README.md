@@ -1,3 +1,7 @@
+# Create an Archetype 10 project
+    mvn archetype:generate -DarchetypeGroupId=com.adobe.granite.archetypes
+    -DarchetypeArtifactId=aem-project-archetype -DarchetypeVersion=10
+    -DarchetypeRepository=https://repo.adobe.com/nexus/content/groups/public/
 # Sample AEM project template
 
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
@@ -53,4 +57,5 @@ The project comes with the auto-public repository configured. To setup the repos
 
     http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html
 # aem-tech
-# aem-tech
+
+#

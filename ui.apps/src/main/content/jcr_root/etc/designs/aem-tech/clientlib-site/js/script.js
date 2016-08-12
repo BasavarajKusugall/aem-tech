@@ -339,14 +339,7 @@ $(document).ready(function($) {
         var window_max = 0;
         var threshold_offset = 50;
 
-        function set_limits() {
-            var max_move = $main.offset().top + $main.height() - $container.height() - 2 * parseInt($container.css("top"));
-            var min_move = $main.offset().top;
-            $container.attr("data-min", min_move).attr("data-max", max_move);
-            window_min = min_move - threshold_offset;
-            window_max = max_move + $container.height() + threshold_offset;
-        }
-        set_limits();
+
 
         function window_scroll() {
             if ($window.scrollTop() >= window_min && $window.scrollTop() < window_max) {
@@ -370,11 +363,6 @@ $(document).ready(function($) {
         container_move();
     }
 
-    var nav = $('.mobileMoreView');
-    var pos = nav.offset().top;
-    $(window).scroll(function() {
-        var fix = ($(this).scrollTop() > pos) ? true : false;
-        nav.toggleClass("fix-nav", fix);
-    });
+
 
 });

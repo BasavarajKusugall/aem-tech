@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1471005634398
+Bnd-LastModified: 1471011653974
 Build-Jdk: 1.8.0_92
 Built-By: icf2025834
 Bundle-Description: Bundles for Integration Tests for tech
@@ -8,8 +8,8 @@ Bundle-Name: tech - Integration Tests Bundles
 Bundle-SymbolicName: com.aem.tech.aem-tech.it.tests
 Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
-Export-Package: com.aem.tech.it.tests;version="1.0.0";uses:="org.apache.
- sling.junit.annotations,org.junit,org.junit.runner"
+Export-Package: com.aem.tech.it.tests;uses:="org.apache.sling.junit.anno
+ tations,org.junit,org.junit.runner";version="1.0.0"
 Import-Package: com.aem.tech.core.models;version="[1.0,2)",org.apache.sl
  ing.junit.annotations;version="[1.0,2)",org.apache.sling.settings;versi
  on="[1.3,2)",org.junit,org.junit.runner

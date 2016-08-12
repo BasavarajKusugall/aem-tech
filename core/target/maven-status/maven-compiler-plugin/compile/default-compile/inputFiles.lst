@@ -1,6 +1,6 @@
-/Users/icf2025834/Workspace/testfolder/aem-tech/core/src/main/java/com/aem/tech/core/models/HelloWorldModel.java
-/Users/icf2025834/Workspace/testfolder/aem-tech/core/src/main/java/com/aem/tech/core/schedulers/SimpleScheduledTask.java
-/Users/icf2025834/Workspace/testfolder/aem-tech/core/src/main/java/com/aem/tech/core/listeners/SimpleResourceListener.java
-/Users/icf2025834/Workspace/testfolder/aem-tech/core/src/main/java/com/aem/tech/core/package-info.java
-/Users/icf2025834/Workspace/testfolder/aem-tech/core/src/main/java/com/aem/tech/core/filters/LoggingFilter.java
-/Users/icf2025834/Workspace/testfolder/aem-tech/core/src/main/java/com/aem/tech/core/servlets/SimpleServlet.java
+/Users/icf2025834/Workspace/testfolder/aem-archt10/aem-tech/core/src/main/java/com/aem/tech/core/package-info.java
+/Users/icf2025834/Workspace/testfolder/aem-archt10/aem-tech/core/src/main/java/com/aem/tech/core/models/HelloWorldModel.java
+/Users/icf2025834/Workspace/testfolder/aem-archt10/aem-tech/core/src/main/java/com/aem/tech/core/schedulers/SimpleScheduledTask.java
+/Users/icf2025834/Workspace/testfolder/aem-archt10/aem-tech/core/src/main/java/com/aem/tech/core/filters/LoggingFilter.java
+/Users/icf2025834/Workspace/testfolder/aem-archt10/aem-tech/core/src/main/java/com/aem/tech/core/listeners/SimpleResourceListener.java
+/Users/icf2025834/Workspace/testfolder/aem-archt10/aem-tech/core/src/main/java/com/aem/tech/core/servlets/SimpleServlet.java

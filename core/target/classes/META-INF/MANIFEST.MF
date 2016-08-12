@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1471005632225
+Bnd-LastModified: 1471011650661
 Build-Jdk: 1.8.0_92
 Built-By: icf2025834
 Bundle-Description: Core bundle for tech
@@ -8,13 +8,13 @@ Bundle-Name: tech - Core
 Bundle-SymbolicName: com.aem.tech.aem-tech.core
 Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
-Export-Package: com.aem.tech.core.filters;version="1.0.0";uses:="javax.s
- ervlet",com.aem.tech.core.listeners;version="1.0.0";uses:="org.osgi.ser
- vice.event",com.aem.tech.core.models;version="1.0.0";uses:="javax.annot
- ation,javax.inject,org.apache.sling.api.resource,org.apache.sling.model
- s.annotations",com.aem.tech.core;version="1.0",com.aem.tech.core.schedu
- lers;version="1.0.0",com.aem.tech.core.servlets;version="1.0.0";uses:="
- javax.servlet,org.apache.sling.api,org.apache.sling.api.servlets"
+Export-Package: com.aem.tech.core.filters;uses:="javax.servlet";version=
+ "1.0.0",com.aem.tech.core.listeners;uses:="org.osgi.service.event";vers
+ ion="1.0.0",com.aem.tech.core.models;uses:="javax.annotation,javax.inje
+ ct,org.apache.sling.api.resource,org.apache.sling.models.annotations";v
+ ersion="1.0.0",com.aem.tech.core;version="1.0",com.aem.tech.core.schedu
+ lers;version="1.0.0",com.aem.tech.core.servlets;uses:="javax.servlet,or
+ g.apache.sling.api,org.apache.sling.api.servlets";version="1.0.0"
 Import-Package: javax.annotation,javax.inject;version="[0.0,1)",javax.se
  rvlet,org.apache.sling.api;version="[2.3,3)",org.apache.sling.api.reque
  st;version="[2.4,3)",org.apache.sling.api.resource;version="[2.5,3)",or
