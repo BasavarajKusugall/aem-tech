@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    stateful="false"
+    title="Instagram Studio"
+    width="900"
+    xtype="dialog">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tabs jcr:primaryType="cq:TabPanel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <instaConfig
+                    jcr:primaryType="cq:Panel"
+                    title="Configuration">
+                    <items jcr:primaryType="cq:WidgetCollection">
+                        <title
+                            jcr:primaryType="cq:Widget"
+                            allowBlank="{Boolean}false"
+                            fieldLabel="Title"
+                            fieldLabelDescription="Enter title"
+                            name="./title"
+                            xtype="richtext">
+                            <rtePlugins jcr:primaryType="nt:unstructured">
+                                <table
+                                    jcr:primaryType="nt:unstructured"
+                                    features="*">
+                                    <tableStyles
+                                        jcr:primaryType="nt:unstructured"
+                                        table_x0020_table-bordered="Home Paintings Handbooks Table"/>
+                                </table>
+                                <edit
+                                    jcr:primaryType="cq:WidgetCollection"
+                                    features="*"/>
+                                <findreplace
+                                    jcr:primaryType="nt:unstructured"
+                                    features="*"/>
+                                <subsuperscript
+                                    jcr:primaryType="cq:WidgetCollection"
+                                    features="*"/>
+                                <misctools
+                                    jcr:primaryType="cq:WidgetCollection"
+                                    features="*">
+                                    <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                        <chars jcr:primaryType="nt:unstructured"/>
+                                    </specialCharsConfig>
+                                </misctools>
+                                <paraformat
+                                    jcr:primaryType="nt:unstructured"
+                                    features="*">
+                                    <formats jcr:primaryType="cq:WidgetCollection">
+                                        <p
+                                            jcr:primaryType="nt:unstructured"
+                                            cssName="test"
+                                            description="Paragraph with class"
+                                            tag="p"/>
+                                        <h1
+                                            jcr:primaryType="nt:unstructured"
+                                            description="Headline 1"
+                                            tag="h1"/>
+                                        <h2
+                                            jcr:primaryType="nt:unstructured"
+                                            description="Heading 2"
+                                            tag="h2"/>
+                                        <h3
+                                            jcr:primaryType="nt:unstructured"
+                                            description="Heading 3"
+                                            tag="h3"/>
+                                        <h4
+                                            jcr:primaryType="nt:unstructured"
+                                            description="Heading 4"
+                                            tag="h4"/>
+                                        <h5
+                                            jcr:primaryType="nt:unstructured"
+                                            description="Heading 5"
+                                            tag="h5"/>
+                                        <h6
+                                            jcr:primaryType="nt:unstructured"
+                                            description="Heading 6"
+                                            tag="h6"/>
+                                        <br
+                                            jcr:primaryType="nt:unstructured"
+                                            description="br"
+                                            tag="br"/>
+                                    </formats>
+                                </paraformat>
+                                <styles
+                                    jcr:primaryType="nt:unstructured"
+                                    features="*">
+                                    <styles jcr:primaryType="cq:WidgetCollection">
+                                        <Margin
+                                            jcr:primaryType="nt:unstructured"
+                                            cssName="mb-10"
+                                            text="Margin-10"/>
+                                        <font
+                                            jcr:primaryType="nt:unstructured"
+                                            cssName="italic"
+                                            text="Italic"/>
+                                        <font2
+                                            jcr:primaryType="nt:unstructured"
+                                            cssName="brandon-black"
+                                            text="Brandon-Black"/>
+                                    </styles>
+                                </styles>
+                            </rtePlugins>
+                        </title>
+                        <userId
+                            jcr:primaryType="cq:Widget"
+                            allowblank="false"
+                            allowBlank="{Boolean}false"
+                            fieldDescription="Please enter instagram userId"
+                            fieldLabel="User Id"
+                            name="./userId"
+                            xtype="textfield"/>
+                        <accessToken
+                            jcr:primaryType="cq:Widget"
+                            allowblank="false"
+                            allowBlank="{Boolean}false"
+                            fieldDescription="Please enter instagram access token"
+                            fieldLabel="Access Token"
+                            name="./accessToken"
+                            xtype="textfield"/>
+                        <count
+                            jcr:primaryType="cq:Widget"
+                            allowblank="false"
+                            defaultValue="9"
+                            fieldDescription="Please enter no.of image to display,By default it 9"
+                            fieldLabel="No. of images "
+                            name="./count"
+                            xtype="numberfield"/>
+                        <size
+                            jcr:primaryType="cq:Widget"
+                            allowblank="false"
+                            allowBlank="{Boolean}false"
+                            defaultValue="thumbnail"
+                            fieldDescription="Choose Image Size "
+                            fieldLabel="Choose Image Size"
+                            name="./size"
+                            type="select"
+                            value="thumbnail"
+                            xtype="selection">
+                            <options jcr:primaryType="cq:WidgetCollection">
+                                <option1
+                                    jcr:primaryType="nt:unstructured"
+                                    text="150x150"
+                                    value="thumbnail"/>
+                                <option2
+                                    jcr:primaryType="nt:unstructured"
+                                    text="320x320"
+                                    value="low_resolution"/>
+                                <option3
+                                    jcr:primaryType="nt:unstructured"
+                                    text="640x640"
+                                    value="standard_resolution"/>
+                            </options>
+                        </size>
+                    </items>
+                </instaConfig>
+            </items>
+        </tabs>
+    </items>
+</jcr:root>

@@ -1,0 +1,7 @@
+#base=js
+jquery.js
+bootstrap.js
+bootstrap-select.min.js
+flickity.pkgd.min.js
+jquery.bxslider.js
+script.js

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>tech - UI content</comment>
+<entry key="createdBy">icf2025834</entry>
+<entry key="name">aem-tech.ui.content</entry>
+<entry key="created">2016-08-12T18:19:04.421+0530</entry>
+<entry key="groupId">com.aem.tech</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">ui</entry>
+<entry key="description">UI content package for tech</entry>
+<entry key="artifactId">aem-tech.ui.content</entry>
+<entry key="path">/etc/packages/ui/aem-tech.ui.content.zip</entry>
+</properties>

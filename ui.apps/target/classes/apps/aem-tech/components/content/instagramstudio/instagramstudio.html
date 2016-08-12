@@ -1,0 +1,7 @@
+<div class="wrapper insta">
+   <h2 class="linebg text-center" >${properties.title @context='html'}</h2>
+   <ul data-cnt="${properties.count}" data-size="${properties.size}" class="instaCarausal" data-path="${properties.url}" data-uid="${properties.userId}" data-actokn="${properties.accessToken}" >
+   </ul>
+</div>
+<sly  data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"
+   data-sly-call="${clientLib.js @ categories='instagramstudio'}"></sly>

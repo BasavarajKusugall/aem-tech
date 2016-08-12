@@ -1,0 +1,298 @@
+@charset "utf-8";
+@media only screen and ( max-width:1280px){ 
+.main-post-conten { width:calc(100% - 130px); float:left; margin-left:130px}
+.videoTab { left:2%; right:2%}
+.singlLightbox.popupBox { padding:3px;}
+ 
+}
+@media only screen and ( max-width:1100px){ 
+.videoTab{ position:relative; right:auto; left:0; width:100%;}
+.videoTab li{ width:50%;}
+.videoTab li a .imgwrap { width:117px; z-index:11; max-height:none;}
+.videoTab li a span b { width:30px; height:30px; top:50%}
+.videoTab li a .imgwrap img { opacity:1}
+.videoTab .vidotext { padding-left:120px;}
+.videoTab .vidotext abbr { width:calc(100% - 127px)}
+.vidotext em { left:44px}
+.videoTab li:hover .vidotext{ color:#313131}
+.clearLeft { clear:left}
+.instaCarausal li { width:16.66%;}
+ .instaCarausal li:nth-child(-n+3) {
+display:none
+}
+.wrpTabproCon { padding-left:20px}
+.footer-logo ul li a { min-width:0}
+}
+@media only screen and ( max-width:992px){ 
+/*fonts css*/
+h1 {font-size:40px;}
+h3 { font-size:35px;}
+h5{ font-size:30px;}
+h2{font-size:29px; margin:5px 0;}
+h4 { font-size:18px;}
+p{ font-size:16px; }
+h6{ font-size:12px;}
+strong { font-size:18px;}
+p strong { font-size:15px}
+.wrapImgVideo a h1{ font-size:44px;}
+/*fonts css*/
+
+.col-cs-62 { width:100%;}
+.col-cs-38 { width:100%;}
+.post-conten { padding:10px 0 0 0; text-align:left}
+.post-img { text-align:center}
+.head-vcenter h1{ min-height:0}
+.dropdown-menu-cstm li h4 { font-size:15px}
+.dropdown-menu-cstm { padding:10px 10px 5px}
+.dropdown-menu-cstm .tag-line{ margin:6px 0}
+.sidebar{ width:70px}
+.shares-wrap{ min-height:0; padding:5px 0}
+.shares-wrap strong{ font-size:20px}
+.shares-wrap em { font-size:10px}
+.sidebar-social li{ width:100%; }
+.sidebar-social li:nth-child(2n+2){ border-left:none}
+.main-post-conten { width:calc(100% - 100px); float:left; margin-left:100px}
+.quoteTextWrap{ padding:0}
+.quoteText{ margin:30px 0}
+.shareStory li a{ text-indent:-999px; overflow:hidden}
+.shareStory > li:first-child{ width:2%}
+.footer-mainsub { padding:30px 0; text-align:center}
+.footer-email { margin:0; text-align:center; font-size:22px; padding:8px 0}
+.footer-mainsub:after { display:none}
+.mobileMoreView { position:absolute; background:#fff; z-index:111; top:60px; left:-100%; width:100%; height:calc(100% - 60px);-webkit-transition: all 0.5s ease-in-out 0s;-moz-transition: all 0.5s ease-in-out 0s;-ms-transition: all 0.5s ease-in-out 0s;-o-transition: all 0.5s ease-in-out 0s;transition: all 0.5s ease-in-out 0s; }
+.mobileMoreView.fix-nav { position:fixed}
+.mobileMoreView > a { z-index:11; display:block; width:5px; height:100%; display:block; background:#000; position:absolute; left:100%; top:-60px}
+.mobileMoreView.fix-nav > a { top:0}
+.mobileMoreView > a span { display:block; background:#000; display:block; width:65px; height:16px; border-top-left-radius:5px; border-top-right-radius:5px; line-height:12px; font-size:11px; line-height:1; color:#fff; text-align:center; text-transform:uppercase; top:50%; left:-22px; position:absolute; transform:rotate(90deg)}
+.mobileMoreView .moreview { position:absolute; padding:20px 25px; top:0; left:0; width:100%; height:100%; overflow:scroll}
+.mobileMoreView.opnsidebar{ left:0}
+ 
+.mobileMoreView.opnsidebar > a{ left:auto; right:0}
+.mobileMoreView > a span i, .mobileMoreView.opnsidebar > a span i{ font-style:normal}
+.mobileMoreView > a span i.closes { display:none}
+.mobileMoreView > a span i.mores { display:block}
+.postList.thumbList li:first-child { display:none}
+.mobileMoreView.opnsidebar > a span{ left:-39px; border-radius:5px; border-top-left-radius:0px; border-top-right-radius:0px; }
+.mobileMoreView.opnsidebar > a span i.closes { display:block}
+.mobileMoreView.opnsidebar > a span i.mores { display:none}
+.postList.thelatest { padding-right:0; border-right:0}
+.smallHeadList.pl15{ padding-left:0}
+.container1440.videowrap{ width:100%; max-width:100%; padding:0}
+.container1440.videowrap > div { padding-left:0; padding-right:0}
+.carouselCustom li { width:49.5%}
+.viewall-right{ padding-right:50px}
+.videoTab.slidingMenu { bottom:0}
+.subpage-head{ border:0}
+.dropdownFull{ display:none !important}
+.navbar-default.navbar-custome .navbar-nav.navbar-center > li > a { padding:23px 7px}
+.navbar-default.navbar-custome .navbar-brand { width:calc(100% - 120px); text-align:center}
+.navbar-default.navbar-custome .navbar-brand a{ padding:15px;}
+.main-menu { position:relative; padding:0}
+.navbar-center.navbar-nav li { display:block}
+.navbar-center.navbar-nav { width:100%}
+.navbar-collapse { width:100%}
+.mobileSearch { display:block; float:right;padding: 17.9px 20px; border-left:solid 1px #d0d0d0}
+.navbar-toggle{ border:none; border-right:solid 1px #d0d0d0}
+.teamConten { padding:15px; max-width:50%}
+ 
+.tab-content.mobileTabstar > .tab-pane{ display:none}
+.tab-content.mobileTabstar > .tab-pane.active{ display:block}
+ .mobileTab { display:block}
+  .postList.thelatest { padding-right:0; padding-left:0; border:0}
+  .videoList li { width:33.33%}
+  .shareStory.socialFooter { width:240px;}
+  .shareStory li a.google-share:after{ left:0}
+}
+
+@media only screen and ( max-width:768px){ 
+/*fonts css*/
+h1 {font-size:35px;}
+h3 { font-size:30px;}
+h5{ font-size:28px;}
+h2{font-size:26px; margin:5px 0;}
+h4 { font-size:16px;}
+p{ font-size:15px; }
+h6{  margin:7px 0}
+strong { font-size:16px;}
+p strong { font-size:15px}
+.wrapImgVideo a h1{ font-size:34px;}
+/*fonts css*/
+.cookiConte h1, .cookiConte h1 strong { font-size:18px;}
+.cookiConte > div + div { padding-left:15px; border:none}
+.cstmDropdown .dropdown-menu-cstm.next-post{ left:auto; right:50%}
+.cstmDropdown:hover .dropdown-menu-cstm.next-post{ left:auto; right:0%}
+.cstmDropdown .dropdown-menu-cstm.prev-post{ left:50%; right:auto}
+.cstmDropdown:hover .dropdown-menu-cstm.prev-post{ left:0; right:auto}
+.dropdown-menu-cstm li h4 { font-size:12px}
+.cstmDropdown .dropdown-menu-cstm { padding:5px 5px 0px}
+.sidebar{ text-align:center; width:100%; display:inline-block; float:none; position:static; margin:0 0 20px 0}
+.sidebar .shares-wrap{ display:inline-block; padding:6px; float:left}
+.sidebar-social{ display:inline-block; float:left; margin:0; width:auto}
+.sidebar-social li{ width:46px; float:left; border:none}
+.sidebar-social li:not(:last-child){ border-right:solid 1px #cecece}
+.sidebar > p, .sidebar > span{ display:none}
+.sidebar-category { display:none}
+.shares-wrap strong{ font-size:16px; line-height:1;}
+.stickywrap{ margin-top:20px; }
+.main-post-conten{ width:100%; float:none; margin:0 auto}
+ .homeBanner .bx-wrapper{ max-width:90% !important; }
+.prb5, .plb5 { padding:5px;}
+.conversArticlbtn a { width:100%; margin:5px 0}
+.shareFevrat > div + div { border:none;}
+.sidebarmobile { display:inline-block}
+.footer-logo{ padding:20px 0}
+.homeBanner .bannerLeftSide{ display:none}
+.homeBanner .bannerRightSide{ display:none}
+ .homeBanner > span > a { width:40px; height:40px;}
+
+.smallHeadList.pl15{ padding-right:0}
+.videoTab li{ width:100%; height:auto; padding:20px ; border-top:none}
+.imgwrap { position:relative; float:left}
+.videoTab .vidotext { position:relative; display:block; width:calc(100% - 125px); float:left; padding:0}
+.videoTab .vidotext abbr { width:100%; padding:10px;}
+.vidotext em{ left:-74px;}
+ 
+.playVideo{border:3px solid #fff; height:50px; width:50px;}
+.playVideo:after{border-bottom:8px solid transparent; border-left: 12px solid #fff;border-top:8px solid transparent;}
+.seeVideo { right:20px; display:none}
+.nowTrading.postList li { width:49.5%; float:none; display:inline-block; padding:00px 10px 30px 10px}
+.postList { padding:0}
+.btn-full.mtb60  { margin:20px auto}
+.mainCategory { display:block; float:left; width:100%; margin-bottom:25px}
+.mainCategory > div { display:block; float:left; width:100%}
+.mainCategory > div > div { display:block; float:left; width:100%; text-align:center;}
+.mainCategory > div > div:last-child, .mainCategory > div > div:first-child{ width:100%; padding:0}
+.profileWrap { padding:20px 0}
+.switch-tital { display:none}
+.homeBanner .js-flickity { display:block}
+.carouselCustom.slider1 { margin:0}
+.rightbutton{ display:none}
+.carouselWrap h2.linebg { text-align:center}
+.carouselWrap h2.linebg span:first-child { padding-left:20px}
+.searchResultH1 span { padding:5px 0 5px 80px}
+.archivesDropdown{ margin-top:10px}
+.bx-viewport{ overflow:visible !important}
+.carusalwrap { overflow:hidden}
+.carouselCustom.mobileSlide li{ padding:0}
+/*.bx-wrapper{ max-width:100% !important}*/
+.carouselCustom.carouserlf li > *, .carouselCustom.carouserlf li > *, .carouselCustom.mobileSlide li > * { padding:0 10px; display:block}
+.bx-controls { display:block}
+.mobileView,  .sidebar-social li.mobileView { display:block}
+.desktopView { display:none}
+ 
+.footer-subscribe-box { margin:0; width:100%}
+.videoTab li{ border-top:none}
+/*.nowTradingsec  { display:none}*/
+.nowTrading.postList li:last-child { border:none}
+.videowrap .allVideos { padding:25px 0; background:#f4f4f4; margin:0}
+.videoTab li + li{ border-left:none}
+.videoTab { padding:0 15px; float:left; background:#f4f4f4 }
+.videoTab li:last-child { border-bottom:none}
+.vidotext em { height:26px; width:26px; border-color:#fff}
+
+h2.linebgMbl span { padding:0 20px; background:#fff}
+.shareFevrat h2.linebgMbl span { background:#f2f2f2 }
+ 
+ 
+h2.linebgMbl:after { content:""; position:absolute; top:50%; left:0; width:100%; height:1px; border-top:solid 1px #cbcbcb}
+.shareFevwrap .container{ width:100%; padding:0}
+.shareFevrat { padding:0 15px;}
+.archivesDropdown > li .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){ min-width:0}
+.teamWrap li, .teamWrap li:nth-child(2n+2) { padding:10px;}
+.teamConten, .teamWrap li:nth-child(2n+2) .teamConten{ position:relative; top:auto; padding:10px; left:5%; right:5%; width:90%; margin-top:-20px; max-width:100%;}
+.instaCarausal li { width:25%;}
+ .instaCarausal li:nth-child(-n+5) {
+display:none
+}
+  .videoList li { width:50%}
+ .homeBanner > span#homepage-next { right:10px;}
+.homeBanner > span#homepage-prev { left:10px;}
+.homeBanner .navHomeBanner >span > a { width:35px; height:35px;}
+ .loginFormFild, .loginForm-Conten { padding:15px; float:left; width:100%; border:none}
+ .searchBoxCate{ width:80%}
+ .profileTab { padding:0}
+ .wrpTabproCon { padding-left:0; margin-top:10px;}
+.profileTab .leftboxtab { position:relative; top:auto; left:auto; width:100%;}
+ .leftboxtab li{ display:block; width:auto; margin-left:3px; float:left; }
+ .footer-logo ul { display:none}
+ .footer-logo > a { float:none} 
+ .wrapInspration { padding:30px 30px}
+ .inspratingallery li{ width:25%;}
+.popupimgwrap .navbar-nav{ margin:0; transform: translateX(0%); left:0%;}
+  .popupimgwrap li { width:auto; display:block; float:left}
+  .wrapImgLightbox img { min-height:0; max-width:100%; max-height:100%;}
+  .popupBox { padding:0}
+.userIocn em.userImgWrp { display:none}
+.lighboxImagewrap { width:100%; height:60%;}
+.lighboxDetail { width:100%; height:40%;}
+.lightboxNav { margin-bottom:5px;}
+.lightboxText h5 { display:none}
+.filterCity { display:none}
+.filterConten { width:100%;}
+.listfiler li { width:50%}
+}
+ 
+@media only screen and ( max-width:568px){ 
+.quoteText{ border:none}
+.sidebar .shares-wrap { display:none}
+.wrapImgVideo a h1{ font-size:28px;}
+.subMenu > li a span{ text-indent:-999px; width:20px;}
+.subMenu >li >a >span:after{ right:0%;}
+.written-by{ width:100%}
+.post-name{ width:100%; text-align:left; margin:0}
+.nowTrading.postList li { width:100%; float:left; padding:0 0 30px 0}
+.imgText-left, .imgText-right { width:100%; margin-left:0; margin-right:0; text-align:center}
+.carouselCustom{ margin:0}
+.carouselCustom.boxTwo li, .carouselCustom li { width:100%; float:left; padding:0; margin-bottom:20px}
+
+.carouselCustom.submt60 li { margin:0px 0 20px 0}
+.wrapintro h2 em { font-size:48px}
+.wrapintro h2 { font-size:30px}
+.p0.mobileMoreView , .p0.nowTradingsec { padding:0 15px}
+ .theLatest { float:right; padding:0 15px}
+ 
+
+
+ 
+.articl-img-main, .postFullScreen span, .wrapImgVideo { position:relative; width:100%; padding-top:100%; display:block; overflow:hidden}
+.articl-img-main img, .postFullScreen span img, .wrapImgVideo img { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%); height:100%; width:auto; max-width: none !important}
+.readTechno { display:none}
+/*.hubpage-h1 { font-size:40px}
+*/
+.insta { display:none}
+.videoList li p { font-size:14px; line-height:1}
+.videoTab li { padding:10px;}
+ .wrapInspration { padding:40px 20px; margin-bottom:50px;}
+ .inspratingallery li{ width:50%;}
+ .filter__item i { width:14px; height:14px; margin-right:4px;}
+ .action{ font-size:14px;}
+ .filter__item { margin:0 5px;}
+ .grid{ max-width:100%;}
+ 
+}
+
+
+@media only screen and ( max-width:480px){ 
+/*fonts css*/
+/*h1 {font-size:28px;}
+h3 { font-size:26px;}
+h5{ font-size:22px;}
+h2{font-size:24px; margin:5px 0;}
+h4 { font-size:18px;}
+p{ font-size:15px; }
+h6{}
+strong { font-size:16px;}
+p strong { font-size:15px}*/
+/*fonts css*/
+.footer-email{ margin:0}
+.shareStory li:first-child { display:none}
+.wrapIntroSect { display:block; position:relative; float:left; width:100%}
+.instaCarausal{ padding:10px}
+ .instaCarausal li{ width:50%; padding:10px}
+ 
+ .mobileTab li a { font-size:12px}
+  .videoList li { padding:5px;}
+  .profileInfo { padding:0}
+  .profileInfo .profilePicChange { position:relative; margin:0 auto; top:auto; left:auto}
+  .profileInfo h2 { position:relative; top:auto; transform:translate(0); text-align:center}
+}

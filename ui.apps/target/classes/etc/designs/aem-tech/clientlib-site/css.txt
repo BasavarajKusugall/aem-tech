@@ -1,0 +1,10 @@
+#base=css
+bootstrap.css
+bootstrap-select.min.css
+fileinput.min.css
+flickity.css
+jquery.bxslider.css
+jquery.fancybox.css
+responsive.css
+custom-icf.css
+styles.css
